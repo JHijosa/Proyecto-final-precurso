@@ -168,26 +168,6 @@ header a:hover {
     font-size: .9rem;
 }
 
-
-/* mediaquery desktop */
-
-@media (min-width: 62em) {
-    .mqdesktop-3 {
-        width: 33.33%;
-    }
-    .mqdesktop-2 {
-        width: 50%;
-        display: inline-block;
-    }
-    .mqdesktop-2-a {
-        width: 50%;
-        float: left;
-    }
-    .mqdesktop-2-b {
-        width: 50%;
-    }
-}
-
 .formulario form {
     margin: 0 auto;
 }
@@ -279,4 +259,24 @@ footer {
     text-align: center;
     font-weight: bold;
     padding: 1rem;
+}
+
+
+/* mediaquery desktop */
+
+@media (min-width: 62em) {
+    .mqdesktop-3 {
+        width: 33.33%;
+    }
+    .mqdesktop-2 {
+        width: 50%;
+        display: inline-block;
+    }
+    .mqdesktop-2-a {
+        width: 50%;
+        float: left;
+    }
+    .mqdesktop-2-b {
+        width: 50%;
+    }
 }
