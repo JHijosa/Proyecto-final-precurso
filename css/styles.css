@@ -29,7 +29,7 @@ header a:hover {
     padding-left: 20px;
 }
 
-#enlaces {
+.enlaces {
     float: right;
     margin-right: 20px;
 }
@@ -65,6 +65,10 @@ header a:hover {
     font-weight: bold;
 }
 
+.story {
+    padding: 2rem;
+}
+
 .row {
     max-width: 60rem;
     margin: 0 auto;
@@ -74,17 +78,18 @@ header a:hover {
     text-align: center;
     font-family: sans-serif;
     margin: 0 15% 0 15%;
-    display: none;
-    display: none;
-    padding-top: 1rem;
     text-align: center;
 }
 
-#team {
+#titulo-team {
     text-align: center;
     font-family: sans-serif;
     font-weight: bold;
     margin-top: 150px;
+}
+
+.team {
+    padding: 0 0 1.5rem 0;
 }
 
 .lineas {
@@ -95,6 +100,7 @@ header a:hover {
 .persona {
     width: 33.33%;
     float: left;
+    padding: 1.5rem 0 1.5rem 0;
 }
 
 .imagen-persona {
@@ -244,4 +250,33 @@ textarea {
 .info p a {
     text-decoration: none;
     color: #828282;
+}
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+.social {
+    margin: 5%;
+}
+
+.social ul li {
+    display: inline-flex;
+}
+
+.social ul li a {
+    font-size: 1rem;
+    text-decoration: none;
+    width: 3rem;
+    padding: 1rem;
+    display: inline-block;
+    margin: 0.5rem;
+    color: white;
+}
+
+.copy {
+    text-align: center;
+    font-weight: bold;
+    padding: 1rem;
 }
